@@ -1,12 +1,175 @@
-Product_ID,SKU_Name,Category,Pack_Size,Brand
-SKU1001,Milk Packet,Dairy,500ml,Heritage
-SKU1002,Butter,Dairy,100g,Amul
-SKU1003,Bread,Bakery,400g,Britannia
-SKU1004,Atta,Staples,5kg,Aashirvaad
-SKU1005,Salt,Staples,1kg,Tata
-SKU1006,Biscuits,Snacks,400g,Parle
-SKU1007,Noodles,Instant Food,70g,Maggi
-SKU1008,Curd,Dairy,400g,Mother Dairy
-SKU1009,Fruit Juice,Beverages,1L,Real
-SKU1010,Dishwash Bar,Household,200g,Vim
-SKU1011,Face Wash,Personal Care,100ml,Plum
+Product_ID	SKU_Name	Category	Pack_Size	Brand
+SKU0001	Milk Packet	Dairy	500ml	Heritage
+SKU0002	Milk Packet	Dairy	500ml	Amul
+SKU0003	Milk Packet	Dairy	500ml	Mother Dairy
+SKU0004	Milk Packet	Dairy	1L	Heritage
+SKU0005	Milk Packet	Dairy	1L	Amul
+SKU0006	Butter	Dairy	100g	Amul
+SKU0007	Butter	Dairy	100g	Britannia
+SKU0008	Butter	Dairy	100g	Milky Mist
+SKU0009	Butter	Dairy	500g	Amul
+SKU0010	Butter	Dairy	500g	Britannia
+SKU0011	Curd	Dairy	400g	Mother Dairy
+SKU0012	Curd	Dairy	400g	Heritage
+SKU0013	Curd	Dairy	400g	Milky Mist
+SKU0014	Curd	Dairy	1kg	Mother Dairy
+SKU0015	Curd	Dairy	1kg	Heritage
+SKU0016	Paneer	Dairy	200g	Mother Dairy
+SKU0017	Paneer	Dairy	200g	Milky Mist
+SKU0018	Paneer	Dairy	200g	Amul
+SKU0019	Paneer	Dairy	500g	Mother Dairy
+SKU0020	Paneer	Dairy	500g	Amul
+SKU0021	Cheese Slices	Dairy	200g	Amul
+SKU0022	Cheese Slices	Dairy	200g	Britannia
+SKU0023	Ghee	Dairy	500ml	Amul
+SKU0024	Ghee	Dairy	500ml	Mother Dairy
+SKU0025	Ghee	Dairy	500ml	Aashirvaad
+SKU0026	Cream	Dairy	200ml	Amul
+SKU0027	Cream	Dairy	200ml	Milky Mist
+SKU0028	Atta	Staples	5kg	Aashirvaad
+SKU0029	Atta	Staples	5kg	Pillsbury
+SKU0030	Atta	Staples	5kg	Shakti Bhog
+SKU0031	Atta	Staples	10kg	Aashirvaad
+SKU0032	Atta	Staples	10kg	Pillsbury
+SKU0033	Rice	Staples	5kg	India Gate
+SKU0034	Rice	Staples	5kg	Daawat
+SKU0035	Rice	Staples	5kg	Kohinoor
+SKU0036	Rice	Staples	1kg	India Gate
+SKU0037	Rice	Staples	1kg	Daawat
+SKU0038	Salt	Staples	1kg	Tata
+SKU0039	Salt	Staples	1kg	Catch
+SKU0040	Salt	Staples	1kg	Annapurna
+SKU0041	Sugar	Staples	1kg	Uttam
+SKU0042	Sugar	Staples	1kg	Madhur
+SKU0043	Besan	Staples	500g	Rajdhani
+SKU0044	Besan	Staples	500g	MDH
+SKU0045	Maida	Staples	1kg	Pillsbury
+SKU0046	Maida	Staples	1kg	Aashirvaad
+SKU0047	Moong Dal	Staples	500g	Tata
+SKU0048	Moong Dal	Staples	500g	Fortune
+SKU0049	Chana Dal	Staples	500g	Tata
+SKU0050	Chana Dal	Staples	500g	Fortune
+SKU0051	Toor Dal	Staples	1kg	Tata
+SKU0052	Toor Dal	Staples	1kg	Fortune
+SKU0053	Masoor Dal	Staples	500g	Tata
+SKU0054	Masoor Dal	Staples	500g	Nature Fresh
+SKU0055	Sunflower Oil	Oils	1L	Fortune
+SKU0056	Sunflower Oil	Oils	1L	Saffola
+SKU0057	Sunflower Oil	Oils	1L	Sundrop
+SKU0058	Sunflower Oil	Oils	5L	Fortune
+SKU0059	Sunflower Oil	Oils	5L	Saffola
+SKU0060	Olive Oil	Oils	500ml	Figaro
+SKU0061	Olive Oil	Oils	500ml	DiSano
+SKU0062	Mustard Oil	Oils	1L	Patanjali
+SKU0063	Mustard Oil	Oils	1L	Fortune
+SKU0064	Coconut Oil	Oils	500ml	Parachute
+SKU0065	Coconut Oil	Oils	500ml	KLF Nirmal
+SKU0066	Tomato Ketchup	Condiments	500g	Kissan
+SKU0067	Tomato Ketchup	Condiments	500g	Maggi
+SKU0068	Tomato Ketchup	Condiments	500g	Heinz
+SKU0069	Soy Sauce	Condiments	200ml	Chings
+SKU0070	Soy Sauce	Condiments	200ml	Lee Kum Kee
+SKU0071	Noodles	Instant Food	70g	Maggi
+SKU0072	Noodles	Instant Food	70g	Yippee
+SKU0073	Noodles	Instant Food	70g	Top Ramen
+SKU0074	Noodles	Instant Food	4pack	Maggi
+SKU0075	Noodles	Instant Food	4pack	Yippee
+SKU0076	Pasta	Instant Food	400g	Maggi
+SKU0077	Pasta	Instant Food	400g	Borges
+SKU0078	Oats	Instant Food	500g	Quaker
+SKU0079	Oats	Instant Food	500g	Saffola
+SKU0080	Oats	Instant Food	500g	Bagrry's
+SKU0081	Cornflakes	Instant Food	500g	Kellogg's
+SKU0082	Cornflakes	Instant Food	500g	Bagrry's
+SKU0083	Idli Mix	Instant Food	200g	MTR
+SKU0084	Idli Mix	Instant Food	200g	Gits
+SKU0085	Idli Mix	Instant Food	200g	iD Fresh
+SKU0086	Dosa Mix	Instant Food	200g	MTR
+SKU0087	Dosa Mix	Instant Food	200g	Gits
+SKU0088	Dosa Mix	Instant Food	200g	iD Fresh
+SKU0089	Fruit Juice	Beverages	1L	Real
+SKU0090	Fruit Juice	Beverages	1L	Tropicana
+SKU0091	Fruit Juice	Beverages	1L	B Natural
+SKU0092	Fruit Juice	Beverages	200ml	Real
+SKU0093	Fruit Juice	Beverages	200ml	Tropicana
+SKU0094	Tea	Beverages	500g	Tata Tea
+SKU0095	Tea	Beverages	500g	Brooke Bond
+SKU0096	Tea	Beverages	500g	Wagh Bakri
+SKU0097	Tea	Beverages	250g	Tata Tea
+SKU0098	Tea	Beverages	250g	Brooke Bond
+SKU0099	Coffee	Beverages	100g	Nescafe
+SKU0100	Coffee	Beverages	100g	Bru
+SKU0101	Coffee	Beverages	100g	Continental
+SKU0102	Coconut Water	Beverages	200ml	Paperboat
+SKU0103	Coconut Water	Beverages	200ml	Raw Pressery
+SKU0104	Buttermilk	Beverages	200ml	Mother Dairy
+SKU0105	Buttermilk	Beverages	200ml	Heritage
+SKU0106	Biscuits	Snacks	400g	Parle
+SKU0107	Biscuits	Snacks	400g	Britannia
+SKU0108	Biscuits	Snacks	400g	McVitie's
+SKU0109	Chips	Snacks	90g	Lay's
+SKU0110	Chips	Snacks	90g	Bingo
+SKU0111	Chips	Snacks	90g	Haldiram's
+SKU0112	Namkeen	Snacks	200g	Haldiram's
+SKU0113	Namkeen	Snacks	200g	Bikanervala
+SKU0114	Cashews	Snacks	200g	Happilo
+SKU0115	Cashews	Snacks	200g	Miltop
+SKU0116	Almonds	Snacks	200g	Happilo
+SKU0117	Almonds	Snacks	200g	Miltop
+SKU0118	Bread	Bakery	400g	Britannia
+SKU0119	Bread	Bakery	400g	Modern
+SKU0120	Bread	Bakery	400g	Harvest Gold
+SKU0121	Brown Bread	Bakery	400g	Britannia
+SKU0122	Brown Bread	Bakery	400g	Harvest Gold
+SKU0123	Multigrain Bread	Bakery	400g	Britannia
+SKU0124	Rusk	Bakery	300g	Britannia
+SKU0125	Rusk	Bakery	300g	Parle
+SKU0126	Eggs	Eggs	6pcs	Suguna
+SKU0127	Eggs	Eggs	6pcs	Country Delight
+SKU0128	Eggs	Eggs	6pcs	Kegg
+SKU0129	Eggs	Eggs	12pcs	Suguna
+SKU0130	Eggs	Eggs	12pcs	Country Delight
+SKU0131	Dishwash Bar	Household	200g	Vim
+SKU0132	Dishwash Bar	Household	200g	Pril
+SKU0133	Dishwash Bar	Household	200g	Exo
+SKU0134	Dishwash Liquid	Household	500ml	Vim
+SKU0135	Dishwash Liquid	Household	500ml	Pril
+SKU0136	Detergent Powder	Household	1kg	Surf Excel
+SKU0137	Detergent Powder	Household	1kg	Ariel
+SKU0138	Detergent Powder	Household	1kg	Tide
+SKU0139	Floor Cleaner	Household	500ml	Lizol
+SKU0140	Floor Cleaner	Household	500ml	Domex
+SKU0141	Toilet Cleaner	Household	500ml	Harpic
+SKU0142	Toilet Cleaner	Household	500ml	Domex
+SKU0143	Mosquito Repellent	Household	45ml	Good Knight
+SKU0144	Mosquito Repellent	Household	45ml	All Out
+SKU0145	Tissue Paper	Household	100pcs	Scotts
+SKU0146	Tissue Paper	Household	100pcs	Kleenex
+SKU0147	Face Wash	Personal Care	100ml	Plum
+SKU0148	Face Wash	Personal Care	100ml	Himalaya
+SKU0149	Face Wash	Personal Care	100ml	Cetaphil
+SKU0150	Shampoo	Personal Care	200ml	Dove
+SKU0151	Shampoo	Personal Care	200ml	Head & Shoulders
+SKU0152	Shampoo	Personal Care	200ml	Pantene
+SKU0153	Body Wash	Personal Care	250ml	Dove
+SKU0154	Body Wash	Personal Care	250ml	Nivea
+SKU0155	Body Wash	Personal Care	250ml	Fiama
+SKU0156	Soap	Personal Care	3pack	Dove
+SKU0157	Soap	Personal Care	3pack	Dettol
+SKU0158	Soap	Personal Care	3pack	Lux
+SKU0159	Moisturiser	Personal Care	200ml	Nivea
+SKU0160	Moisturiser	Personal Care	200ml	Dove
+SKU0161	Moisturiser	Personal Care	200ml	Cetaphil
+SKU0162	Toothpaste	Personal Care	150g	Colgate
+SKU0163	Toothpaste	Personal Care	150g	Pepsodent
+SKU0164	Toothpaste	Personal Care	150g	Sensodyne
+SKU0165	Sanitiser	Personal Care	200ml	Dettol
+SKU0166	Sanitiser	Personal Care	200ml	Lifebuoy
+SKU0167	Deodorant	Personal Care	150ml	Dove
+SKU0168	Deodorant	Personal Care	150ml	Nivea
+SKU0169	Deodorant	Personal Care	150ml	AXE
+SKU0170	Baby Wipes	Baby	80pcs	Pampers
+SKU0171	Baby Wipes	Baby	80pcs	Huggies
+SKU0172	Baby Wipes	Baby	80pcs	Mee Mee
+SKU0173	Diapers	Baby	20pcs	Pampers
+SKU0174	Diapers	Baby	20pcs	Huggies
